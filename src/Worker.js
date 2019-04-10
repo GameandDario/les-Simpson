@@ -23,6 +23,7 @@ class Worker extends React.Component {
                 >
                     {isWorking.toUpperCase()}
                 </button>
+                <figure className={isWorking} />
 
 
             </div>
