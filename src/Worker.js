@@ -15,6 +15,7 @@ class Worker extends React.Component {
 
     render() {
         const isWorking = this.state.on ? "Homer' s working" : "Homer's tired";
+        const currentLogo = this.state.working ? "App-logo" : "logoRotation";
         return (
             <div className="Worker">
                 <button
